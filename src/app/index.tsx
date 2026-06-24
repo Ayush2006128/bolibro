@@ -1,9 +1,12 @@
-import { Text, View, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
+import { Host, Text } from "@expo/ui/jetpack-compose";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Hello, World!</Text>
+      <Host matchContents>
+      <Text>Hello, World!</Text>
+      </Host>
     </View>
   );
 }
@@ -13,9 +16,5 @@ const styles = StyleSheet.create({
     flex: 1,	
     alignItems: "center",
     justifyContent: "center",
-  },
-  heading: {
-    font: "bold",
-    fontSize: 34,
   },
 });

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "bolibro",
+    "name": "Bolibro",
     "slug": "bolibro",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d015ace4-fdb6-4e09-a789-a2eb7a8d3090"
+      }
+    },
+    "owner": "foss-corp"
   }
 }
